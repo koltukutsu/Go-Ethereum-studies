@@ -1,0 +1,22 @@
+t=2022-05-11T14:28:43+0300 lvl=info msg=Configured api=signer audit log=audit.log
+t=2022-05-11T14:35:45+0300 lvl=info msg=Configured api=signer audit log=audit.log
+t=2022-05-11T14:37:41+0300 lvl=info msg=Version    api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2022-05-11T14:37:41+0300 lvl=info msg=Version    api=signer type=response data=6.1.0 error=nil
+t=2022-05-11T14:40:12+0300 lvl=info msg=Version    api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2022-05-11T14:40:12+0300 lvl=info msg=Version    api=signer type=response data=6.1.0 error=nil
+t=2022-05-11T14:40:23+0300 lvl=info msg=Version    api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2022-05-11T14:40:23+0300 lvl=info msg=Version    api=signer type=response data=6.1.0 error=nil
+t=2022-05-11T14:40:51+0300 lvl=info msg=Version    api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2022-05-11T14:40:51+0300 lvl=info msg=Version    api=signer type=response data=6.1.0 error=nil
+t=2022-05-11T14:41:11+0300 lvl=info msg=Configured api=signer audit log=audit.log
+t=2022-05-11T14:41:15+0300 lvl=info msg=Version    api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2022-05-11T14:41:15+0300 lvl=info msg=Version    api=signer type=response data=6.1.0 error=nil
+t=2022-05-11T14:41:22+0300 lvl=info msg=Version    api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2022-05-11T14:41:22+0300 lvl=info msg=Version    api=signer type=response data=6.1.0 error=nil
+t=2022-05-11T14:41:54+0300 lvl=info msg=Configured api=signer audit log=audit.log
+t=2022-05-11T14:41:57+0300 lvl=info msg=Version    api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2022-05-11T14:41:57+0300 lvl=info msg=Version    api=signer type=response data=6.1.0 error=nil
+t=2022-05-11T14:57:46+0300 lvl=info msg=List       api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2022-05-11T14:58:17+0300 lvl=info msg=List       api=signer type=response data=[0xe33334A04452B7B1df07b0B49734512fE84d7B16]
+t=2022-05-11T14:59:28+0300 lvl=info msg=List       api=signer type=request  metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+t=2022-05-11T14:59:42+0300 lvl=info msg=List       api=signer type=response data=[0xe33334A04452B7B1df07b0B49734512fE84d7B16]

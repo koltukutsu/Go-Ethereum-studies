@@ -1,0 +1,31 @@
+to start clef  -> clef --keystore geth-tutorial/keystore --configdir geth-tutorial/clef --chainid 5
+to start node -> geth --datadir geth-tutorial --signer=geth-tutorial/clef/clef.ipc --goerli --syncmode snap --http
+to accept http connection from clef -> geth attach http://127.0.0.1:8545
+
+
+## web3 commands
+web3.fromWei(eth.getBalance("0xca57F3b40B42FCce3c37B8D18aDBca5260ca72EC"), "ether")
+1 eth is the equivalent of 1e18 wei
+
+eth.sendTransaction({
+    from: "0xca57f3b40b42fcce3c37b8d18adbca5260ca72ec",
+    to: "0xce8dba5e4157c2b284d8853afeeea259344c1653",
+    value: web3.toWei(0.1, "ether")
+})
+
+
+## geth node
+eth.getTransaction("0x99d489d0bd984915fd370b307c2d39320860950666aac3f261921113ae4f95bb")
+
+## curl, getting info
+curl -X POST http://127.0.0.1:8545 \
+  -H "Content-Type: application/json" \
+  --data '{"jsonrpc":"2.0", "method":"eth_getBalance", "params":["0xca57f3b40b42fcce3c37b8d18adbca5260ca72ec","latest"], "id":1}'
+  
+curl -X POST http://127.0.0.1:8545 \
+    -H "Content-Type: application/json" \
+   --data '{"jsonrpc":"2.0", "method":"eth_accounts","params":[], "id":1}'
+   
+curl -X POST http://127.0.0.1:8545 \
+    -H "Content-Type: application/json" \
+   --data '{"jsonrpc":"2.0", "method":"eth_sendTransaction", "params":[{"from": "0xca57f3b40b42fcce3c37b8d18adbca5260ca72ec","to": "0xce8dba5e4157c2b284d8853afeeea259344c1653","value": "0x16345785d8a0000"}], "id":1}'
